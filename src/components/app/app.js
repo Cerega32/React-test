@@ -35,7 +35,7 @@ class App extends Component {
           increment: "black",
         };
       });
-    }, 1500);
+    }, 15000);
   };
 
   componentWillUnmount = () => {
