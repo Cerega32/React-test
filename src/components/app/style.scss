@@ -1,0 +1,16 @@
+.main {
+  margin: 0 auto;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main__basket {
+  position: relative;
+  margin-top: 15px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}

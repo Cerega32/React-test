@@ -1,0 +1,71 @@
+.module {
+	z-index: 5;
+	position: absolute;
+	top: 80px;
+	display: flex;
+	flex-direction: column;
+	background: #fff;
+	border: 1px solid gray;
+	border-radius: 4px;
+}
+
+.basket {
+	margin-bottom: 20px;
+	display: table;
+	border-collapse: collapse;
+}
+
+.basket__row {
+	display: table-row;
+	border-bottom: 1px solid #555;
+	&:first-child {
+		font-weight: 700;
+		border-bottom: 2px solid #555;		
+	}
+	&:last-child {
+		border-bottom: none;
+	}
+}
+
+.basket__cell {
+	padding: 15px;
+	display: table-cell;
+
+	&:first-child {
+		width: 500px;
+	}
+	&:nth-child(2) {
+		width: 120px;
+	}
+	&:nth-child(3) {
+		width: 140px;
+	}
+}
+
+.basket__title {
+	display: table-header-group;
+	margin-bottom: 20px;
+}
+
+.basket__delete {
+	padding: 10px;
+	border: none;
+	background:transparent;
+	cursor: pointer;
+}
+
+.basket__input {
+	padding: 5px;
+	width: 60px;
+}
+
+.basket__sum {
+	margin: 0 20px 20px auto;
+}
+
+.basket__sum-numbers {
+	margin-left: 5px;
+	display: inline-block;
+	color: orange;
+	font-weight: 700;
+}
